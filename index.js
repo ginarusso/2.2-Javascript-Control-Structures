@@ -3,11 +3,11 @@
 
 let q1test = 99
 
-if (q1test%3 === 0 && q1test%5 === 0) {
+if (q1test % 3 === 0 && q1test % 5 === 0) {
         console.log(`${q1test} is divisible by 3 and 5`)
-    } else if (q1test%3 === 0) {
+    } else if (q1test % 3 === 0) {
         console.log(`${q1test} is divisible by 3`)
-    } else if (q1test%5 === 0) {
+    } else if (q1test % 5 === 0) {
         console.log(`${q1test} is divisible by 5`)
     } else {
         console.log(`${q1test} is not divisible 3 or 5`)
@@ -30,7 +30,7 @@ if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
 //Q3. Use a loop to print all the numbers from 1 to 100 that are divisible by 3 or 4.
 
 for (let i=1; i <= 100; i++) {
-    if (i%3 === 0 || i%4 === 0) {
+    if (i % 3  === 0 || i % 4 === 0) {
         console.log(i)
     }
 }
